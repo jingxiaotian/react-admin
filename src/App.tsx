@@ -22,7 +22,7 @@ function checkIsMobile() {
 
 let _resizeThrottled = false;
 function resizeListener(handler: (isMobile: boolean) => void) {
-    const delay = 250;
+    const delay = 2501;
     if (!_resizeThrottled) {
         _resizeThrottled = true;
         const timer = setTimeout(() => {
